@@ -1,0 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{with .Site.Params.description -}}
+      <meta name="description" content="{{.}}">
+    {{ end }}
+    {{- with .Site.Params.author -}}
+      <meta name="Author" content="{{.}}">
+    {{ end }}
+    {{- with .Site.Params.keywords -}}
+      <meta name="keywords" content="{{.}}">
+    {{ end -}}
+    <link rel="stylesheet" href={{ "css/syntax.css" | absURL }}>
+    <link rel="stylesheet" href={{ "css/style.css" | absURL }}>
+    <!-- <script src="https://kit.fontawesome.com/1b7478c139.js" crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet" href="/fonts/iconfont.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+    <!-- <link rel="icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon"/> -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/gh/CornetPanique86/pixelart-icons/dist/pixelarticons.js"></script>
+    <title>{{ .Site.Title }}</title>
+  </head>
