@@ -2,35 +2,9 @@
     {{if .Site.Params.displayHomeContent}}
         {{.Content}}
     {{end}}
-    {{if ne .Site.Params.displayRecent false}}
-    <div class="section"> 
-        <div class="section-title">recent</div> 
-        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-        {{range first (default  4 .Site.Params.recentMax) (where $pages "Section" "ne" .Site.Params.microBlogSection)}}
-            <div class="list-item">
-                <a class="entry-title" href="{{ .Permalink }}">{{ .Title }}</a>
-                {{$page := .}}
-                {{with .Description}}
-                <p>{{.}}</p>
-                {{end}}
-                <div class="meta">
-                {{with .Date}}
-                    <i class="far fa-calendar-alt"></i> {{.Format "Jan 2 2006"}}
-                {{end}}
-                <br>
-                {{with .Params.tags}}
-                        <i class="fas fa-tags"></i> 
-                        Tags: {{ delimit . ", " }}
-                {{end}}
-                </div>
-            </div>
-        {{end}}
-        </div>
-    {{end}}
-
     {{if .Site.Params.displayMicroBlog}}
     <div class="section"> 
-        <div class="section-title">μblog</div> 
+        <div class="section-title">News & Updates</div> 
         <div class="posts">
             {{ range where (where site.RegularPages "Type" "in" site.Params.microBlogSection) "Params.pinned" true }}
                 <div class="post">
@@ -54,5 +28,30 @@
             {{ end }} 
         </div>
     </div>
+    {{end}}
+    {{if ne .Site.Params.displayRecent false}}
+    <div class="section"> 
+        <div class="section-title">Recent Posts</div> 
+        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+        {{range first (default  4 .Site.Params.recentMax) (where $pages "Section" "ne" .Site.Params.microBlogSection)}}
+            <div class="list-item">
+                <a class="entry-title" href="{{ .Permalink }}">{{ .Title }}</a>
+                {{$page := .}}
+                {{with .Description}}
+                <p>{{.}}</p>
+                {{end}}
+                <div class="meta">
+                {{with .Date}}
+                    <i class="far fa-calendar-alt"></i> {{.Format "Jan 2 2006"}}
+                {{end}}
+                <br>
+                {{with .Params.tags}}
+                        <i class="fas fa-tags"></i> 
+                        Tags: {{ delimit . ", " }}
+                {{end}}
+                </div>
+            </div>
+        {{end}}
+        </div>
     {{end}}
 {{end }}

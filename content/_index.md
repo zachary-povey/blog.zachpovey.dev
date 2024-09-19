@@ -6,8 +6,8 @@ draft = false
 
 Hello, and welcome to my blog!
 
-I'm a platform and data engineer that likes to write stuff down. I figured some of my writings may be of use to other people so I decided to make them public.
+I'm a developer who likes to write stuff down. I figured some of my writings may be useful to other people, so I decided to make them public.
 
-Please feel free to get in touch to discuss or counter anything I describe, declare or promote. I like having robust and productive debates about things, but anyone with a toxic attitude will be told to do one.
+Feel free to get in touch to discuss, challenge, or debate anything I share here. I enjoy robust, productive conversations, but anyone with a toxic attitude will be told to do one.
 
-I've learnt the hard way that I am often wrong about things so readers take my advice at their own risk. When I am right about something, I'm probably not the first person to say that thing, however sometimes hearing the same thing a different way can still be useful.
+I’ve learned the hard way that I’m often wrong, so take my advice at your own risk. When I do get something right, I’m probably not the first person to say that thing, but sometimes hearing the same idea in a different way can be valuable.

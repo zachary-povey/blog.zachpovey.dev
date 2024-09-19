@@ -7,7 +7,7 @@ pygmentsUseClasses=true
 
 [params]
   author = "Zach Povey"
-  description = "Zach Povery's blog about technology, programming in python, typescript and go and life."
+  description = "Zach Povery's blog about technology; programming in python, typescript and go; and life."
   keywords = "hugo blog technology python typescript go data engineering software engineering"
   useAvatar = true
   microBlogSection = "micro_posts"
@@ -22,31 +22,31 @@ pygmentsUseClasses=true
 [menu]
   [[menu.main]]
     name = "home"
-    pre = "<i class=\"fas fa-home fa-sm\"></i>"
+    pre = '<i class="hn hn-home"></i>'
     url = "/"
     weight = -9 
   [[menu.main]]
     name = "blog"
-    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
+    pre = '<i class="hn hn-clipboard"></i>'
     url = "/blog/"
     weight = -8
   [[menu.main]]
     name = "tags"
-    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
+    pre = '<i class="hn hn-tag"></i>'
     url = "/tags"
     weight = -7 
   [[menu.main]]
     name = "github"
-    pre = "<i class=\"fab fa-github fa-ms\"></i>"
-    url = "https://github.com/yourgithubusername23434"
+    pre = '<i class="hn hn-github"></i>'
+    url = "https://github.com/zachary-povey"
     weight = -6 
   [[menu.main]]
     name = "RSS"
-    pre = "<i class=\"fas fa-rss fa-ms\"></i>"
+    pre = '<i class="hn hn-rss"></i>'
     url = "/index.xml"
     weight = -4 
   [[menu.main]]
-    name = "contact"
-    pre = "<i class=\"far fa-envelope\"></i>"
-    url = "/contact"
+    name = "cv island"
+    pre = '<i class="hn hn-plane"></i>'
+    url = "https://zachpovey.dev"
     weight = -1 
