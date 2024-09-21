@@ -50,3 +50,6 @@ pygmentsUseClasses=true
     pre = '<i class="hn hn-plane"></i>'
     url = "https://zachpovey.dev"
     weight = -1 
+
+[taxonomies]
+tag = "tags"
