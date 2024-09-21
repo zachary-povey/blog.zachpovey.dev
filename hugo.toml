@@ -1,21 +1,21 @@
-baseURL = "https://www.example.com"
-languageCode = "en-us"
+baseURL = "https://blog.zachpovey.dev"
+languageCode = "en-uk"
 title = "Zach's Blog"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+copyright = "Feel free to share, use, or adapt any content from this blog - a shout out would be nice!"
 theme = "npqhugo"
 pygmentsUseClasses=true
 
 [params]
   author = "Zach Povey"
   description = "Zach Povery's blog about technology; programming in python, typescript and go; and life."
-  keywords = "hugo blog technology python typescript go data engineering software engineering"
+  keywords = "blog technology python typescript go data engineering software engineering zach zachary povey"
   useAvatar = true
   microBlogSection = "micro_posts"
   displayMicroBlog = true
   displayRecent = true
   displayHomeContent = true
   recentMax = 4
-  # mail = "mail@example.com"
+  # mail = "zach@zachpovey.dev"
   # phone = "8888888888"
   # formspreeID = "yourformspreeID"
 
