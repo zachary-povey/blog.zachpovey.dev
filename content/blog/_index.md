@@ -1,8 +1,7 @@
-+++
-aliases = ["posts","articles","blog","showcase","docs"]
-title = "Posts"
-author = "Zach Povey"
-tags = ["index"]
-+++
+---
+aliases: ["posts","articles","blog"]
+title: "Blog"
+tags: ["index"]
+---
 
 
